@@ -7,16 +7,28 @@ import greenfoot.*;
  * @version (a version number or a date)
  */
 public class apple extends Actor
-{
-    /**
-     * Act - do whatever the apple wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
+{ 
+    public void move() 
     {
+<<<<<<< HEAD
         if( Greenfoot.isKeyDown( "left" ) ){
         setRotation(180);
         move(1);
     }
+=======
+<<<<<<< HEAD
+        if( Greenfoot.isKeyDown( "up" ) ){
+            setRotation(270);
+            move(4);
+        }
+
+
+=======
+        if( Greenfoot.isKeyDown( "down" ) ){
+            setRotation(270);
+            move(-1);
+        }
+>>>>>>> d2cce90a0878b028660d5b00b2cebfac5e540836
+>>>>>>> d01822ea8e32e687759448631046f6eb74c86594
     }    
 }
