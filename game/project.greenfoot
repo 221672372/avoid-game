@@ -1,60 +1,23 @@
-<<<<<<< HEAD
-#Greenfoot properties
-#Wed Dec 20 09:26:30 JST 2017
-target1.editor.x=105
-target1.type=ClassTarget
-project.charset=UTF-8
-mainWindow.height=546
-target1.naviview.expanded=true
-target2.type=ClassTarget
-version=2.7.1
-class.people.superclass=greenfoot.Actor
-target2.y=10
-target2.x=70
-target1.typeParameters=
-world.lastInstantiated=Myworld
-target1.height=50
-target2.width=80
-target1.width=80
-mainWindow.y=180
-mainWindow.x=75
-target2.typeParameters=
-=======
 #Greenfoot project file
 class.Myworld.image=bathroom-tile.jpg
 class.Myworld.superclass=greenfoot.World
 class.people.image=man.png
 class.people.superclass=greenfoot.Actor
-dependency1.from=Myworld
-dependency1.to=people
-dependency1.type=UsesDependency
 mainWindow.height=546
-mainWindow.width=852
-mainWindow.x=114
-mainWindow.y=171
-package.numDependencies=1
+mainWindow.width=854
+mainWindow.x=75
+mainWindow.y=208
+package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
->>>>>>> 02983b194544ebe4302e2946906c34e06d16850a
 target1.editor.height=700
-class.Myworld.image=bathroom-tile.jpg
 target1.editor.width=900
-<<<<<<< HEAD
-package.numDependencies=0
-target1.y=10
-target1.x=160
-package.numTargets=2
-mainWindow.width=854
-=======
 target1.editor.x=105
 target1.editor.y=80
 target1.height=50
->>>>>>> 02983b194544ebe4302e2946906c34e06d16850a
 target1.name=people
+target1.naviview.expanded=true
 target1.showInterface=false
-<<<<<<< HEAD
-class.Myworld.superclass=greenfoot.World
-=======
 target1.type=ClassTarget
 target1.typeParameters=
 target1.width=80
@@ -62,14 +25,16 @@ target1.x=160
 target1.y=10
 target2.editor.height=700
 target2.editor.width=900
-target2.editor.x=101
-target2.editor.y=165
+target2.editor.x=368
+target2.editor.y=286
 target2.height=50
 target2.name=Myworld
 target2.naviview.expanded=true
->>>>>>> 02983b194544ebe4302e2946906c34e06d16850a
 target2.showInterface=false
-target2.name=Myworld
-target2.height=50
-class.people.image=man.png
-target1.editor.y=52
+target2.type=ClassTarget
+target2.typeParameters=
+target2.width=80
+target2.x=70
+target2.y=10
+version=2.7.1
+world.lastInstantiated=Myworld
