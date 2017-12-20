@@ -8,15 +8,24 @@ class.people.image=man.png
 class.people.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=854
+<<<<<<< HEAD
 mainWindow.x=78
 mainWindow.y=283
+=======
+mainWindow.x=75
+mainWindow.y=152
+>>>>>>> b4c2d168d416e98307feb6cbab96bbca92438c74
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=105
+<<<<<<< HEAD
 target1.editor.y=52
+=======
+target1.editor.y=24
+>>>>>>> b4c2d168d416e98307feb6cbab96bbca92438c74
 target1.height=50
 target1.name=people
 target1.naviview.expanded=true
