@@ -11,6 +11,12 @@ public class apple extends Actor
     public void move() 
     {
 <<<<<<< HEAD
+        if( Greenfoot.isKeyDown( "left" ) ){
+        setRotation(180);
+        move(1);
+    }
+=======
+<<<<<<< HEAD
         if( Greenfoot.isKeyDown( "up" ) ){
             setRotation(270);
             move(4);
@@ -23,5 +29,6 @@ public class apple extends Actor
             move(-1);
         }
 >>>>>>> d2cce90a0878b028660d5b00b2cebfac5e540836
+>>>>>>> d01822ea8e32e687759448631046f6eb74c86594
     }    
 }

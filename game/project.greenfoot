@@ -2,6 +2,7 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
 >>>>>>>=b4c2d168d416e98307feb6cbab96bbca92438c74
+<<<<<<< HEAD
 class.BALL.superclass=greenfoot.Actor
 class.BALL_L.image=gold-ball.png
 class.BALL_L.superclass=BALL
@@ -10,6 +11,9 @@ class.BALL_M.superclass=BALL
 class.BALL_S.image=ball.png
 class.BALL_S.superclass=BALL
 class.Myworld.image=bathroom-tile.jpg
+=======
+class.Myworld.image=sand2.jpg
+>>>>>>> 117c1b8a5c8c5a8092633d80d0dc8f431130c480
 class.Myworld.superclass=greenfoot.World
 class.people.image=man.png
 class.people.superclass=greenfoot.Actor
@@ -38,6 +42,9 @@ project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=105
+<<<<<<< HEAD
+target1.editor.y=34
+=======
 target1.editor.y=80
 >>>>>>> 02983b194544ebe4302e2946906c34e06d16850a
 target1.height=50
@@ -58,10 +65,17 @@ target2.height=50
 target2.name=BALL
 =======
 target1.y=10
+<<<<<<< HEAD
+target2.editor.height=800
+target2.editor.width=900
+target2.editor.x=405
+target2.editor.y=56
+=======
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=101
 target2.editor.y=165
+>>>>>>> 02983b194544ebe4302e2946906c34e06d16850a
 target2.height=50
 target2.name=Myworld
 >>>>>>> 02983b194544ebe4302e2946906c34e06d16850a
