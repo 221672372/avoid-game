@@ -13,7 +13,11 @@ class.Myworld.image=bathroom-tile.jpg
 class.Myworld.superclass=greenfoot.World
 class.people.image=man.png
 class.people.superclass=greenfoot.Actor
+dependency1.from=Myworld
+dependency1.to=people
+dependency1.type=UsesDependency
 mainWindow.height=546
+<<<<<<< HEAD
 mainWindow.width=854
 mainWindow.x=844
 mainWindow.y=325
@@ -24,6 +28,18 @@ target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=651
 target1.editor.y=291
+=======
+mainWindow.width=852
+mainWindow.x=114
+mainWindow.y=171
+package.numDependencies=1
+package.numTargets=2
+project.charset=UTF-8
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=105
+target1.editor.y=80
+>>>>>>> 02983b194544ebe4302e2946906c34e06d16850a
 target1.height=50
 target1.name=BALL_S
 target1.naviview.expanded=true
@@ -32,6 +48,7 @@ target1.type=ClassTarget
 target1.typeParameters=
 target1.width=80
 target1.x=160
+<<<<<<< HEAD
 target1.y=70
 target2.editor.height=700
 target2.editor.width=900
@@ -39,6 +56,15 @@ target2.editor.x=915
 target2.editor.y=331
 target2.height=50
 target2.name=BALL
+=======
+target1.y=10
+target2.editor.height=700
+target2.editor.width=900
+target2.editor.x=101
+target2.editor.y=165
+target2.height=50
+target2.name=Myworld
+>>>>>>> 02983b194544ebe4302e2946906c34e06d16850a
 target2.naviview.expanded=true
 target2.showInterface=false
 target2.type=ClassTarget
