@@ -13,10 +13,10 @@ public class Myworld extends World
     public void act()
     {
         rtime--;
-        showText("Time ="+rtime,500,50);
+        showText("Time = "+rtime,500,50);
         if(rtime == 0)
         {
-            showText("time up = "+rtime,200,200);
+            showText("CLEAR!!!",300,200);
             Greenfoot.stop();
         }
     }
@@ -30,6 +30,6 @@ public class Myworld extends World
     {
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        rtime = 1000;
+        rtime = 500;
     }
 }
