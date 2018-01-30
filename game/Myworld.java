@@ -32,4 +32,6 @@ public class Myworld extends World
         rtime = 500;
 
     }
+    
+    public final void setBackground("background.jpeg")
 }

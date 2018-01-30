@@ -42,7 +42,11 @@ target2.editor.height=701
 target2.editor.width=900
 <<<<<<< HEAD
 target2.editor.x=311
+<<<<<<< HEAD
+target2.editor.y=364
+=======
 target2.editor.y=380
+>>>>>>> 117c1b8a5c8c5a8092633d80d0dc8f431130c480
 =======
 target2.editor.x=828
 target2.editor.y=331
