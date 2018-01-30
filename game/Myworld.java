@@ -8,20 +8,50 @@ import greenfoot.*;
  */
 public class Myworld extends World
 {
-<<<<<<< HEAD
     private int rtime;
 
     public void act()
     {
         rtime--;
         showText("Time = "+rtime,500,50);
-        if(rtime == 0)
+        if(rtime == -1)
         {
-            showText("CLEAR!!!",300,200);
-            Greenfoot.stop();
+            World game = new clear();
+            Greenfoot.setWorld(game);
         }
+
+        int MINx = 0;
+        int MAXx = 600;
+        int MINy = 0;
+        int MAXy = 400;
+
+        int x = MINx + (int)(Math.random()*((MAXx-MINx)+1));
+        int y = MINy + (int)(Math.random()*((MAXy-MINy)+1));
+        int rotate = (int)(Math.random()*360);
+
+        double random_locate = Math.random() * 100;
+
+        if(random_locate >= 0 && random_locate < 25) x = 1;
+        else if(random_locate >= 25 && random_locate < 50) y = 1;
+        else if(random_locate >= 50 && random_locate < 75) x = 598;
+        else y = 398;
+
+        if (rtime % 10 == 0){
+
+            double random = Math.random() * 100;
+
+            if(random <= 20){
+                addObject( new BALL_L(), x, y );
+            }
+            else if(random > 20 && random <= 50){
+                addObject( new BALL_M(), x, y );
+            }
+            else if(random > 50){
+                addObject( new BALL_S(), x, y );
+            }
+        }
+
     }
-    
 
     /**
      * Constructor for objects of class Myworld.
@@ -32,14 +62,8 @@ public class Myworld extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
         rtime = 500;
-=======
-    public Myworld()
-    {    
-        super(600, 400, 1); 
-        
+
         addObject( new people(), 300, 200 );
->>>>>>> 02983b194544ebe4302e2946906c34e06d16850a
+
     }
-    
-    public final void setBackground("background.jpeg")
 }
