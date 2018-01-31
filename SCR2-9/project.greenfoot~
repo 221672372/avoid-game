@@ -14,18 +14,30 @@ mainWindow.x=75
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 mainWindow.x=360
 mainWindow.y=252
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+mainWindow.x=75
+mainWindow.y=236
+=======
+mainWindow.x=797
+mainWindow.y=312
+>>>>>>> 9ca1b8ce75bafd08f4bcfbd6b5d06d548082c10a
+=======
+>>>>>>> d181a5796a6c6a2d1546ed110f4ac267386de03a
 mainWindow.x=797
 mainWindow.y=368
 =======
 mainWindow.x=75
 mainWindow.y=320
 >>>>>>> 2038bd66c81555b91ca9d4e1895c6e2b6b028c60
+>>>>>>> 117c1b8a5c8c5a8092633d80d0dc8f431130c480
 package.numDependencies=0
 package.numTargets=5
 =======
@@ -67,6 +79,10 @@ target1.x=70
 target1.y=70
 target2.editor.height=701
 target2.editor.width=900
+<<<<<<< HEAD
+target2.editor.x=311
+target2.editor.y=336
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD

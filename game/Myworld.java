@@ -67,4 +67,6 @@ public class Myworld extends World
         addObject( new people(), 300, 200 );
         
     }
+    
+    //public final void setBackground("background.jpeg")
 }
