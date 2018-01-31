@@ -13,7 +13,7 @@ public class people extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() {
-        
+
         if( Greenfoot.isKeyDown( "shift" ) ){
             if( Greenfoot.isKeyDown( "right" ) ){
                 setRotation(0);
@@ -50,5 +50,24 @@ public class people extends Actor
                 move(10);
             }
         }
-    }    
+
+        Actor actor = getOneObjectAtOffset( 0, 0, BALL_S.class );
+        if( actor != null ){
+            World game = new gameover();
+            Greenfoot.setWorld(game);
+        }  
+        
+        Actor actor2 = getOneObjectAtOffset( 0, 0, BALL_M.class );
+        if( actor2 != null ){
+            World game = new gameover();
+            Greenfoot.setWorld(game);
+        }
+        
+        Actor actor3 = getOneObjectAtOffset( 0, 0, BALL_L.class );
+        if( actor3 != null ){
+            World game = new gameover();
+            Greenfoot.setWorld(game);
+        }
+    }
+
 }
