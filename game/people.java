@@ -64,7 +64,6 @@ public class people extends Actor
             Life--;
             getWorld().showText( "Life = "+Life,100, 50 );
             getWorld().removeObject( actor );
-            Greenfoot.delay(100);
             if(Life == 0){
                 World game = new gameover();
                 Greenfoot.setWorld(game);
@@ -77,7 +76,7 @@ public class people extends Actor
             Life--;
             getWorld().showText( "Life = "+Life,100, 50 );
             getWorld().removeObject( actor2 );
-            Greenfoot.delay(100);
+       
             if(Life == 0){
                 World game = new gameover();
                 Greenfoot.setWorld(game);
@@ -90,7 +89,7 @@ public class people extends Actor
             Life--;
             getWorld().showText( "Life = "+Life,100, 50 );
             getWorld().removeObject( actor3 );
-            Greenfoot.delay(100);
+        
             if(Life == 0){
                 World game = new gameover();
                 Greenfoot.setWorld(game);
