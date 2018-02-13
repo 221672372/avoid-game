@@ -16,7 +16,7 @@ public class BALL_L extends BALL
     private int flag = 0;
     public void act() 
     {
-        int speed = 5;
+        int speed = 99;
         
         int rotate;
         int x = getX();
