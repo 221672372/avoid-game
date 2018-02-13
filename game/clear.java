@@ -20,11 +20,15 @@ public class clear extends World
 
         showText("CLEAR!!!",300,200);
 
-        //showText("Enterキーを押してください",300,300);
-
-        //while(Greenfoot.isKeyDown("enter")==false){}
-        World game = new title();
-        Greenfoot.setWorld(game);
-
+        showText("Enterキーを押してください",300,300);
+    }
+    
+    public void act()
+    {
+        if(Greenfoot.isKeyDown("enter"))
+        {
+            World game = new title();
+            Greenfoot.setWorld(game);
+        }
     }
 }

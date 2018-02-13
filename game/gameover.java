@@ -16,6 +16,18 @@ public class gameover extends World
     public gameover()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(600, 400, 1);
+        
+        showText("GAME OVER",300,200);
+        showText("Enterキーでタイトルにもどる",300,300);
+    }
+    
+    public void act()
+    {
+        if(Greenfoot.isKeyDown("enter"))
+        {
+            World game = new title();
+            Greenfoot.setWorld(game);
+        }
     }
 }
