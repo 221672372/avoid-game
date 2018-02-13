@@ -8,16 +8,24 @@ import greenfoot.*;
  */
 public class Myworld extends World
 {
+<<<<<<< HEAD
 
     private int rtime;/* 制限時間 */   
     private int i;/* i...for文用制御変数 */
     private int x = 550;/* ❤のx座標調整用変数 */
+=======
+    private int rtime;
+>>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
     
     public void act()
     {
         rtime--;
         showText("Time = "+rtime,500,50);
+<<<<<<< HEAD
         showText("Life = "+title.life,500,70);
+=======
+       
+>>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
         
         if(rtime == -1)
         {
