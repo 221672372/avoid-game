@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=dbbd07d65a8966c0f3e706a005bb733e2791423a
+>>>>>>>=7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 class.BALL.superclass=greenfoot.Actor
 class.BALL_L.image=dangan.png
 class.BALL_L.superclass=BALL
@@ -19,11 +19,7 @@ class.people.image=man.png
 class.people.superclass=greenfoot.Actor
 class.title.image=title.jpg
 class.title.superclass=greenfoot.World
-<<<<<<< HEAD
-dependency1.from=Myworld
-=======
 dependency1.from=title
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 dependency1.to=people
 dependency1.type=UsesDependency
 dependency10.from=people
@@ -32,8 +28,8 @@ dependency10.type=UsesDependency
 dependency11.from=Myworld
 dependency11.to=clear
 dependency11.type=UsesDependency
-dependency12.from=people
-dependency12.to=BALL_L
+dependency12.from=Myworld
+dependency12.to=people
 dependency12.type=UsesDependency
 dependency2.from=Myworld
 dependency2.to=BALL_L
@@ -61,15 +57,9 @@ dependency9.to=BALL_M
 dependency9.type=UsesDependency
 mainWindow.height=546
 mainWindow.width=854
-<<<<<<< HEAD
-mainWindow.x=364
-mainWindow.y=318
-package.numDependencies=11
-=======
 mainWindow.x=629
 mainWindow.y=315
 package.numDependencies=12
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 package.numTargets=9
 project.charset=UTF-8
 target1.editor.height=700
@@ -88,11 +78,7 @@ target1.y=70
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=105
-<<<<<<< HEAD
-target2.editor.y=24
-=======
 target2.editor.y=72
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 target2.height=50
 target2.name=gameover
 target2.naviview.expanded=true
@@ -105,11 +91,7 @@ target2.y=70
 target3.editor.height=700
 target3.editor.width=900
 target3.editor.x=105
-<<<<<<< HEAD
-target3.editor.y=24
-=======
 target3.editor.y=136
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 target3.height=50
 target3.name=title
 target3.naviview.expanded=true
@@ -121,13 +103,8 @@ target3.x=10
 target3.y=130
 target4.editor.height=700
 target4.editor.width=900
-<<<<<<< HEAD
-target4.editor.x=502
-target4.editor.y=221
-=======
 target4.editor.x=105
-target4.editor.y=72
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
+target4.editor.y=100
 target4.height=50
 target4.name=BALL_S
 target4.naviview.expanded=true
@@ -152,13 +129,8 @@ target5.x=190
 target5.y=130
 target6.editor.height=700
 target6.editor.width=900
-<<<<<<< HEAD
-target6.editor.x=208
-target6.editor.y=293
-=======
 target6.editor.x=105
-target6.editor.y=52
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
+target6.editor.y=80
 target6.height=50
 target6.name=BALL_L
 target6.naviview.expanded=true
@@ -170,13 +142,8 @@ target6.x=10
 target6.y=190
 target7.editor.height=700
 target7.editor.width=900
-<<<<<<< HEAD
-target7.editor.x=958
-target7.editor.y=436
-=======
 target7.editor.x=105
 target7.editor.y=44
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 target7.height=50
 target7.name=BALL_M
 target7.naviview.expanded=true
@@ -188,13 +155,8 @@ target7.x=100
 target7.y=190
 target8.editor.height=702
 target8.editor.width=900
-<<<<<<< HEAD
-target8.editor.x=105
-target8.editor.y=80
-=======
 target8.editor.x=77
 target8.editor.y=171
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 target8.height=50
 target8.name=people
 target8.naviview.expanded=true
@@ -206,13 +168,8 @@ target8.x=160
 target8.y=10
 target9.editor.height=700
 target9.editor.width=900
-<<<<<<< HEAD
-target9.editor.x=761
-target9.editor.y=287
-=======
-target9.editor.x=918
-target9.editor.y=331
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
+target9.editor.x=988
+target9.editor.y=376
 target9.height=50
 target9.name=Myworld
 target9.naviview.expanded=true
