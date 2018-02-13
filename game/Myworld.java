@@ -8,12 +8,17 @@ import greenfoot.*;
  */
 public class Myworld extends World
 {
-    private int rtime;
 
+    private int rtime;/* 制限時間 */   
+    private int i;/* i...for文用制御変数 */
+    private int x = 550;/* ❤のx座標調整用変数 */
+    
     public void act()
     {
         rtime--;
         showText("Time = "+rtime,500,50);
+        showText("Life = "+title.life,500,70);
+        
         if(rtime == -1)
         {
             World game = new clear();
@@ -61,9 +66,24 @@ public class Myworld extends World
     {
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        rtime = 500;
+        rtime = 1000;
 
         addObject( new people(), 300, 200 );
-
+        
+        /*for(i=0;i<3;i++){
+            showText("❤",x,60);
+            x -= 10;
+        }
+        
+        if(people.life == 2){
+            showText("",x,60);
+        }
+        if(people.life == 1){
+            showText("",x-10,60);
+        }
+        if(people.life == 0){
+            showText("",x,60);
+        }*/
+        
     }
 }
