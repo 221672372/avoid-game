@@ -1,17 +1,11 @@
 #BlueJ class context
 comment0.params=
-<<<<<<< HEAD
-comment0.target=void\ act()
-comment0.text=invtime...\u7121\u6575\u6642\u9593
-comment1.params=
-comment1.target=void\ operation()
-comment2.params=
-comment2.target=void\ hantei()
-numComments=3
-=======
 comment0.target=people()
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ people\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-numComments=2
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
+comment1.text=invtime...\u7121\u6575\u6642\u9593
+comment2.params=
+comment2.target=void\ operation()
+comment3.params=
+comment3.target=void\ hantei()
+numComments=4

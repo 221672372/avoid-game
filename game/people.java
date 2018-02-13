@@ -33,13 +33,8 @@ public class people extends Actor
         else hantei();
     }
 
-<<<<<<< HEAD
     public void operation(){
-        
-=======
-        getWorld().showText( "Life = "+Life,100, 50 );
 
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
         if( Greenfoot.isKeyDown( "shift" ) ){
             
             if( Greenfoot.isKeyDown( "right" ) ){
@@ -83,7 +78,6 @@ public class people extends Actor
             
         Actor actor = getOneObjectAtOffset( 0, 0, BALL_S.class );
         if( actor != null ){
-<<<<<<< HEAD
             title.life--;
             if(title.life == -1)
             {
@@ -91,21 +85,10 @@ public class people extends Actor
                 Greenfoot.setWorld(game);
             }
             invtime = 100;
-=======
-            Life--;
-            getWorld().showText( "Life = "+Life,100, 50 );
-            getWorld().removeObject( actor );
-            if(Life == 0){
-                World game = new gameover();
-                Greenfoot.setWorld(game);
-            }
-
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
         }  
 
         Actor actor2 = getOneObjectAtOffset( 0, 0, BALL_M.class );
         if( actor2 != null ){
-<<<<<<< HEAD
             title.life--;
             if(title.life == -1)
             {
@@ -113,22 +96,10 @@ public class people extends Actor
                 Greenfoot.setWorld(game);
             }
             invtime = 100;
-=======
-            Life--;
-            getWorld().showText( "Life = "+Life,100, 50 );
-            getWorld().removeObject( actor2 );
-       
-            if(Life == 0){
-                World game = new gameover();
-                Greenfoot.setWorld(game);
-            }
-
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
         }
 
         Actor actor3 = getOneObjectAtOffset( 0, 0, BALL_L.class );
         if( actor3 != null ){
-<<<<<<< HEAD
             title.life--;
             if(title.life == -1)
             {
@@ -136,17 +107,6 @@ public class people extends Actor
                 Greenfoot.setWorld(game);
             }
             invtime = 100;
-=======
-            Life--;
-            getWorld().showText( "Life = "+Life,100, 50 );
-            getWorld().removeObject( actor3 );
-        
-            if(Life == 0){
-                World game = new gameover();
-                Greenfoot.setWorld(game);
-            }
-
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
         }
     }
 }
