@@ -9,11 +9,13 @@ import greenfoot.*;
 public class Myworld extends World
 {
     private int rtime;
-
+    
     public void act()
     {
         rtime--;
         showText("Time = "+rtime,500,50);
+       
+        
         if(rtime == -1)
         {
             World game = new clear();
@@ -63,10 +65,7 @@ public class Myworld extends World
         super(600, 400, 1); 
         rtime = 500;
 
-<<<<<<< HEAD
-=======
         addObject( new people(), 300, 200 );
 
->>>>>>> dbbd07d65a8966c0f3e706a005bb733e2791423a
     }
 }
