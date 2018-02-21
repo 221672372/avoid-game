@@ -8,25 +8,20 @@ import greenfoot.*;
  */
 public class Myworld extends World
 {
-<<<<<<< HEAD
-
+    
     private int rtime;/* 制限時間 */   
     private int i;/* i...for文用制御変数 */
     private int x = 550;/* ❤のx座標調整用変数 */
-=======
-    private int rtime;
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
-    
+
     public void act()
     {
+        
         rtime--;
         showText("Time = "+rtime,500,50);
-<<<<<<< HEAD
-        showText("Life = "+title.life,500,70);
-=======
-       
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
-        
+
+            
+        //showText("Life = "+title.life,500,70);
+
         if(rtime == -1)
         {
             World game = new clear();
@@ -77,21 +72,29 @@ public class Myworld extends World
         rtime = 1000;
 
         addObject( new people(), 300, 200 );
+
+        
+         String heart ="";
+         for(i=0;i<title.life;i++){
+                heart += "❤";
+            }  
+        showText(heart,500,80);
         
         /*for(i=0;i<3;i++){
-            showText("❤",x,60);
-            x -= 10;
+        showText("❤",x,60);
+        x -= 10;
         }
-        
+
         if(people.life == 2){
-            showText("",x,60);
+        showText("",x,60);
         }
         if(people.life == 1){
-            showText("",x-10,60);
+        showText("",x-10,60);
         }
         if(people.life == 0){
-            showText("",x,60);
+        showText("",x,60);
         }*/
-        
+
     }
+    
 }

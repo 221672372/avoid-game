@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=dbbd07d65a8966c0f3e706a005bb733e2791423a
+>>>>>>>=7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 class.BALL.superclass=greenfoot.Actor
 class.BALL_L.image=gold-ball.png
 class.BALL_L.superclass=BALL
@@ -33,17 +33,17 @@ dependency11.type=UsesDependency
 dependency12.from=people
 dependency12.to=BALL_L
 dependency12.type=UsesDependency
-dependency13.from=title
-dependency13.to=waiting
+dependency13.from=people
+dependency13.to=title
 dependency13.type=UsesDependency
-dependency14.from=waiting
-dependency14.to=clear
+dependency14.from=Myworld
+dependency14.to=title
 dependency14.type=UsesDependency
-dependency15.from=waiting
-dependency15.to=Myworld
+dependency15.from=title
+dependency15.to=waiting
 dependency15.type=UsesDependency
-dependency16.from=gameover
-dependency16.to=title
+dependency16.from=people
+dependency16.to=Myworld
 dependency16.type=UsesDependency
 dependency17.from=title
 dependency17.to=people
@@ -93,31 +93,17 @@ dependency8.type=UsesDependency
 dependency9.from=Myworld
 dependency9.to=BALL_S
 dependency9.type=UsesDependency
-<<<<<<< HEAD
-mainWindow.height=650
-mainWindow.width=888
-mainWindow.x=677
-mainWindow.y=323
-package.numDependencies=19
-package.numTargets=10
-project.charset=UTF-8
-target1.editor.height=700
-target1.editor.width=900
-target1.editor.x=829
-target1.editor.y=284
-=======
 mainWindow.height=546
 mainWindow.width=854
-mainWindow.x=629
-mainWindow.y=315
-package.numDependencies=12
-package.numTargets=9
+mainWindow.x=525
+mainWindow.y=352
+package.numDependencies=16
+package.numTargets=10
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=105
 target1.editor.y=52
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 target1.height=50
 target1.name=clear
 target1.naviview.expanded=true
@@ -129,8 +115,8 @@ target1.x=70
 target1.y=70
 target10.editor.height=700
 target10.editor.width=900
-target10.editor.x=328
-target10.editor.y=179
+target10.editor.x=105
+target10.editor.y=100
 target10.height=50
 target10.name=Myworld
 target10.naviview.expanded=true
@@ -155,13 +141,8 @@ target11.x=70
 target11.y=10
 target2.editor.height=700
 target2.editor.width=900
-<<<<<<< HEAD
-target2.editor.x=447
-target2.editor.y=516
-=======
 target2.editor.x=105
 target2.editor.y=72
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 target2.height=50
 target2.name=gameover
 target2.naviview.expanded=true
@@ -173,13 +154,8 @@ target2.x=160
 target2.y=70
 target3.editor.height=700
 target3.editor.width=900
-<<<<<<< HEAD
-target3.editor.x=529
-target3.editor.y=216
-=======
-target3.editor.x=105
-target3.editor.y=136
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
+target3.editor.x=643
+target3.editor.y=298
 target3.height=50
 target3.name=title
 target3.naviview.expanded=true
@@ -218,11 +194,7 @@ target5.y=190
 target6.editor.height=700
 target6.editor.width=900
 target6.editor.x=105
-<<<<<<< HEAD
-target6.editor.y=72
-=======
 target6.editor.y=52
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 target6.height=50
 target6.name=BALL
 target6.naviview.expanded=true
@@ -230,13 +202,8 @@ target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
 target6.width=80
-<<<<<<< HEAD
-target6.x=190
-target6.y=130
-=======
 target6.x=10
 target6.y=190
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 target7.editor.height=700
 target7.editor.width=900
 target7.editor.x=105
@@ -252,13 +219,8 @@ target7.x=10
 target7.y=190
 target8.editor.height=702
 target8.editor.width=900
-<<<<<<< HEAD
-target8.editor.x=541
-target8.editor.y=205
-=======
 target8.editor.x=77
 target8.editor.y=171
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
 target8.height=50
 target8.name=BALL_M
 target8.naviview.expanded=true
@@ -270,13 +232,8 @@ target8.x=100
 target8.y=190
 target9.editor.height=700
 target9.editor.width=900
-<<<<<<< HEAD
-target9.editor.x=307
-target9.editor.y=200
-=======
-target9.editor.x=918
-target9.editor.y=331
->>>>>>> 7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
+target9.editor.x=836
+target9.editor.y=144
 target9.height=50
 target9.name=people
 target9.naviview.expanded=true
