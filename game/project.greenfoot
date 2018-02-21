@@ -1,9 +1,13 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
 >>>>>>>=7cb6a6fde7e8e39a51a029230c6ee4de4e8b20cb
+=======
+>>>>>>>=008e4028b8468ab0887d2996e414b432b276b051
+>>>>>>> 5900d40ff4f6ba70a774a8e9848466504d08f1a1
 class.BALL.superclass=greenfoot.Actor
-class.BALL_L.image=gold-ball.png
+class.BALL_L.image=dangan.png
 class.BALL_L.superclass=BALL
 class.BALL_M.image=steel-ball.png
 class.BALL_M.superclass=BALL
@@ -25,13 +29,13 @@ dependency1.from=title
 dependency1.to=people
 dependency1.type=UsesDependency
 dependency10.from=people
-dependency10.to=BALL_S
+dependency10.to=BALL_L
 dependency10.type=UsesDependency
-dependency11.from=people
-dependency11.to=BALL_M
+dependency11.from=Myworld
+dependency11.to=clear
 dependency11.type=UsesDependency
-dependency12.from=people
-dependency12.to=BALL_L
+dependency12.from=Myworld
+dependency12.to=people
 dependency12.type=UsesDependency
 dependency13.from=people
 dependency13.to=title
@@ -55,7 +59,7 @@ dependency19.from=Myworld
 dependency19.to=title
 dependency19.type=UsesDependency
 dependency2.from=Myworld
-dependency2.to=people
+dependency2.to=BALL_L
 dependency2.type=UsesDependency
 dependency20.from=judge
 dependency20.to=gameover
@@ -73,7 +77,7 @@ dependency24.from=judge
 dependency24.to=BALL_L
 dependency24.type=UsesDependency
 dependency3.from=Myworld
-dependency3.to=clear
+dependency3.to=BALL_M
 dependency3.type=UsesDependency
 dependency4.from=people
 dependency4.to=gameover
@@ -85,21 +89,28 @@ dependency6.from=clear
 dependency6.to=title
 dependency6.type=UsesDependency
 dependency7.from=Myworld
-dependency7.to=BALL_L
+dependency7.to=BALL_S
 dependency7.type=UsesDependency
-dependency8.from=Myworld
-dependency8.to=BALL_M
+dependency8.from=people
+dependency8.to=BALL_S
 dependency8.type=UsesDependency
-dependency9.from=Myworld
-dependency9.to=BALL_S
+dependency9.from=people
+dependency9.to=BALL_M
 dependency9.type=UsesDependency
 mainWindow.height=546
 mainWindow.width=854
+<<<<<<< HEAD
 mainWindow.x=525
 mainWindow.y=352
 package.numDependencies=16
+=======
+mainWindow.x=631
+mainWindow.y=376
+package.numDependencies=14
+>>>>>>> 5900d40ff4f6ba70a774a8e9848466504d08f1a1
 package.numTargets=10
 project.charset=UTF-8
+simulation.speed=49
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=105
@@ -115,8 +126,13 @@ target1.x=70
 target1.y=70
 target10.editor.height=700
 target10.editor.width=900
+<<<<<<< HEAD
 target10.editor.x=105
 target10.editor.y=100
+=======
+target10.editor.x=1055
+target10.editor.y=175
+>>>>>>> 5900d40ff4f6ba70a774a8e9848466504d08f1a1
 target10.height=50
 target10.name=Myworld
 target10.naviview.expanded=true
@@ -154,8 +170,13 @@ target2.x=160
 target2.y=70
 target3.editor.height=700
 target3.editor.width=900
+<<<<<<< HEAD
 target3.editor.x=643
 target3.editor.y=298
+=======
+target3.editor.x=105
+target3.editor.y=136
+>>>>>>> 5900d40ff4f6ba70a774a8e9848466504d08f1a1
 target3.height=50
 target3.name=title
 target3.naviview.expanded=true
@@ -168,7 +189,7 @@ target3.y=130
 target4.editor.height=700
 target4.editor.width=900
 target4.editor.x=105
-target4.editor.y=72
+target4.editor.y=100
 target4.height=50
 target4.name=BALL_S
 target4.naviview.expanded=true
@@ -232,8 +253,13 @@ target8.x=100
 target8.y=190
 target9.editor.height=700
 target9.editor.width=900
+<<<<<<< HEAD
 target9.editor.x=836
 target9.editor.y=144
+=======
+target9.editor.x=416
+target9.editor.y=198
+>>>>>>> 5900d40ff4f6ba70a774a8e9848466504d08f1a1
 target9.height=50
 target9.name=people
 target9.naviview.expanded=true
@@ -244,4 +270,4 @@ target9.width=80
 target9.x=160
 target9.y=10
 version=2.7.1
-world.lastInstantiated=title
+world.lastInstantiated=Myworld

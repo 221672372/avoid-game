@@ -15,6 +15,14 @@ mainWindow.x=75
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+mainWindow.x=360
+mainWindow.y=252
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 mainWindow.x=75
 mainWindow.y=236
 =======
@@ -22,6 +30,7 @@ mainWindow.x=797
 mainWindow.y=312
 >>>>>>> 9ca1b8ce75bafd08f4bcfbd6b5d06d548082c10a
 =======
+>>>>>>> d181a5796a6c6a2d1546ed110f4ac267386de03a
 mainWindow.x=797
 mainWindow.y=368
 =======
@@ -32,6 +41,7 @@ mainWindow.y=320
 package.numDependencies=0
 package.numTargets=5
 =======
+>>>>>>> 117c1b8a5c8c5a8092633d80d0dc8f431130c480
 mainWindow.y=320
 =======
 mainWindow.y=236
@@ -41,11 +51,15 @@ package.numTargets=5
 =======
 mainWindow.x=260
 mainWindow.y=237
+>>>>>>> d01822ea8e32e687759448631046f6eb74c86594
 =======
-mainWindow.x=303
-mainWindow.y=276
->>>>>>> 6713691b37dd355ab0c7598bd7d38cf513bea92f
+mainWindow.x=75
+mainWindow.y=320
+>>>>>>> 2038bd66c81555b91ca9d4e1895c6e2b6b028c60
 package.numDependencies=0
+<<<<<<< HEAD
+package.numTargets=5
+=======
 package.numTargets=4
 >>>>>>> d2cce90a0878b028660d5b00b2cebfac5e540836
 >>>>>>> d01822ea8e32e687759448631046f6eb74c86594
@@ -71,8 +85,13 @@ target2.editor.y=336
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+target2.editor.x=828
+target2.editor.y=331
+=======
 target2.editor.x=311
 target2.editor.y=380
+>>>>>>> 117c1b8a5c8c5a8092633d80d0dc8f431130c480
 =======
 target2.editor.x=105
 target2.editor.y=155
@@ -98,8 +117,9 @@ target2.type=ClassTarget
 target2.typeParameters=
 target2.width=80
 target2.x=160
-<<<<<<< HEAD
 target2.y=70
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
 target2.y=70
@@ -116,8 +136,9 @@ target3.editor.width=900
 target3.editor.x=105
 target3.editor.y=72
 target3.height=50
-<<<<<<< HEAD
 target3.name=B
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
 target3.name=B

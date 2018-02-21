@@ -11,8 +11,13 @@ class.sub.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=836
 <<<<<<< HEAD
+<<<<<<< HEAD
+mainWindow.x=873
+mainWindow.y=373
+=======
 mainWindow.x=797
 mainWindow.y=368
+>>>>>>> 117c1b8a5c8c5a8092633d80d0dc8f431130c480
 =======
 <<<<<<< HEAD
 mainWindow.x=75
@@ -49,8 +54,12 @@ target2.editor.y=380
 >>>>>>> 117c1b8a5c8c5a8092633d80d0dc8f431130c480
 =======
 target2.editor.x=828
+<<<<<<< HEAD
+target2.editor.y=379
+=======
 target2.editor.y=331
 >>>>>>> d01822ea8e32e687759448631046f6eb74c86594
+>>>>>>> 117c1b8a5c8c5a8092633d80d0dc8f431130c480
 target2.height=50
 target2.name=apple
 target2.naviview.expanded=true

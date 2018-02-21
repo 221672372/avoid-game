@@ -67,11 +67,28 @@ public class people extends Actor
             }
         }
     }
+<<<<<<< HEAD
 
     public void hantei(){
+=======
+        
+    public void hantei(){
+            
+        Actor actor = getOneObjectAtOffset( 0, 0, BALL_S.class );
+        if( actor != null ){
+            title.life--;
+            if(title.life == -1)
+            {
+                World game = new gameover();
+                Greenfoot.setWorld(game);
+            }
+            invtime = 100;
+        }  
+>>>>>>> 5900d40ff4f6ba70a774a8e9848466504d08f1a1
 
         Actor actor = getOneObjectAtOffset( 0, 0, BALL_S.class );
         Actor actor2 = getOneObjectAtOffset( 0, 0, BALL_M.class );
+<<<<<<< HEAD
         Actor actor3 = getOneObjectAtOffset( 0, 0, BALL_L.class );
         if( actor != null || actor2 != null || actor3 != null){
             title.life--;
@@ -82,13 +99,32 @@ public class people extends Actor
             }           
             getWorld().showText(heart,500,80);
 
+=======
+        if( actor2 != null ){
+            title.life--;
             if(title.life == -1)
             {
                 World game = new gameover();
                 Greenfoot.setWorld(game);
             }
             invtime = 100;
+        }
+
+        Actor actor3 = getOneObjectAtOffset( 0, 0, BALL_L.class );
+        if( actor3 != null ){
+            title.life--;
+>>>>>>> 5900d40ff4f6ba70a774a8e9848466504d08f1a1
+            if(title.life == -1)
+            {
+                World game = new gameover();
+                Greenfoot.setWorld(game);
+            }
+            invtime = 100;
+<<<<<<< HEAD
         }  
 
+=======
+        }
+>>>>>>> 5900d40ff4f6ba70a774a8e9848466504d08f1a1
     }
 }
